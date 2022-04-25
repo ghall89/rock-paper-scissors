@@ -6,7 +6,9 @@ A simple game of Rock, Paper, Scissors that pits you versus the computer.
 
 ## Usage
 
-Link coming soon!
+GitHub Pages: https://ghall89.github.io/rock-paper-scissors/
+
+Click either "👊 Rock", "✋ Paper", or "✌️ Scissors" to start a game.
 
 ## License
 
