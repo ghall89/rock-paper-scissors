@@ -1,9 +1,13 @@
 const resultEl = document.querySelector('#result');
+const loadEl = document.querySelector('#loading');
 
 const choiceArr = ['rock', 'paper', 'scissors'];
 
 const gameLogic = (you, cpu) => {
 	let result;
+
+	loadEl.style.display = 'none';
+	resultEl.style.display = 'block';
 
 	if (you === cpu) {
 		result = "It's a tie!";
@@ -27,6 +31,7 @@ const cpuPlay = () => choiceArr[Math.floor(Math.random() * (2 - 0 + 1) + 0)];
 const play = e => {
 	const clickedId = e.target.id;
 	const cpuChoice = cpuPlay();
-
-	gameLogic(clickedId, cpuChoice);
+	loadEl.style.display = 'block';
+	resultEl.style.display = 'none';
+	setTimeout(gameLogic, 1000, clickedId, cpuChoice);
 };
