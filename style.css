@@ -8,6 +8,11 @@ body {
 	text-align: center;
 }
 
+.item {
+	display: inline;
+	margin: auto;
+}
+
 .result-container {
 	height: 40px;
 }
