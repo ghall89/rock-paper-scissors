@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 * {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
 
 body {
 	text-align: center;
+}
+
+h1 {
+	padding-bottom: 40px;
 }
 
 .item {
@@ -15,6 +19,7 @@ body {
 
 .result-container {
 	height: 40px;
+	margin-bottom: 40px;
 }
 
 .result-container img {
